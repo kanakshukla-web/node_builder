@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const sectorData = require("../Controllers/sectors.controller");
+const sectorData = require("../controllers/sectors.controller");
 
 //routes
 

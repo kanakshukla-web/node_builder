@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const prodData = require('../Controllers/products.controller');
+const prodData = require('../controllers/products.controller');
 
 //routes
 router.get('/dimensionData/:prod_Id', prodData.dimensionData)
