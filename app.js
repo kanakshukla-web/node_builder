@@ -85,9 +85,9 @@ function handleErrors() {
 function error404Handler() {
   app.use((req, res) => {
     res.status(404).json({
-      message: "Not Found",
+      message: "Oops !! No url matched.",
       error_code: 404,
-      server_status: "server is running smoothly",
+      server_status: "Success!! Server is running smoothly !!",
     });
   });
 }
